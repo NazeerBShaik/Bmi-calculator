@@ -1,6 +1,6 @@
 {
   "homepage": "http://NazeerBShaik.github.io/Bmi-calculator",
-  "name": "Bmi-calculator",
+  "name": "bmi-calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
