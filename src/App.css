@@ -13,7 +13,7 @@
   margin-top: 40px;
 }
 .container{
-  box-shadow: 0px 0px 12px rgb(241, 36, 159);
+  box-shadow: 0px 0px 16px #DC5F00;
   border-radius: 8px;
   padding: 1rem;
   margin: 15px;
@@ -21,11 +21,12 @@
 input{
   width:100%;
   font-size: 1.2rem;
+  font-weight: 600;
   padding: 8px;
   margin: 8px 0;
   border-radius: 8px;
-  color: rgb(5, 121, 61);
-  border-color:rgb(5, 121, 61);
+  color: #3C2317;
+  border-color:#DC5F00;
 }
 .btn{
   display: flex;
@@ -34,26 +35,26 @@ input{
   font-size: 1.2rem;
   margin: 8px 0;
   padding: 10px 0;
-  background-color:rgb(241, 36, 159);
+  background-color:#DC5F00;
   color: #fff;
   border: 1px solid rgb(241, 36, 159);
   border-radius: 8px;
   cursor: pointer;
 }
 .btn:hover{
-  background-color:  rgb(56, 229, 143);
+  background-color:  #3C2317;
 }
 .btn:active{
-  background-color: red;
+  background-color: #CF0A0A;
 }
 .btn-outline{
-  background-color:  rgb(118, 71, 230);
+  background-color:  #DC5F00;
   color: rgb(252, 251, 251);
 }
 .center{
   text-align: center;
   margin: 24px 0;
-  color: rgb(241, 36, 159);
+  color: #DC5F00;
   font-size: 30px;
 }
 p{
@@ -62,21 +63,21 @@ p{
 .result{
   width: 100%;
   height: 40px;
-  border: 2px solid rgb(241, 36, 159);
+  border: 2px solid #DC5F00;
   border-radius: 8px;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 700;
   color:  rgb(118, 71, 230);
   /* padding: 8px 0; */
   margin: 10px 0;
 }    
 label{
   font-size: 20px;
-  color: rgb(241, 36, 159);
+  color: #DC5F00;
   font-weight: 700;
 
 }
 p{
-  color:  rgb(118, 71, 230);
+  color: green;
   font-size: 25px;
 }

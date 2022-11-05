@@ -18,11 +18,11 @@ function App() {
 
           if(bmi < 18.4){
               setMessage("You are under weight")
-          }else if(bmi >= 18.5 && bmi<=27){
+          }else if(bmi >= 18.5 && bmi<=25){
               setMessage("You are a helthy weight");
-          }else if(bmi >27 && bmi<39){
+          }else if(bmi >25 && bmi<=40){
               setMessage("You are overweight")
-          }else if(bmi >=40){
+          }else if(bmi >40){
               setMessage("Obese")
           }else{
               setMessage("Enter valid data before you submit")
@@ -42,11 +42,11 @@ function App() {
             <form onSubmit={calcBmi}>
                 <div>
                     <label> Enter Weight (kg)</label>
-                    <input type="number" value={weight} onChange = {(e) => setWeight(e.target.value)}/>
+                    <input type="number" value={weight} onChange = {(e) => setWeight(e.target.value)} required/>
                 </div>
                 <div>
                     <label>Enter Height (cm)</label>
-                    <input type="number" value={height} onChange={(e) => setHeight(e.target.value)} />
+                    <input type="number" value={height} onChange={(e) => setHeight(e.target.value)} required />
                 </div>
                 <div>
                     <button className='btn' type='submit'>Submit</button>
